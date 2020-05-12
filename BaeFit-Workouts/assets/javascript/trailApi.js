@@ -1,6 +1,6 @@
  $(document).ready(function(){
     //  Declaration of variables
-    var queryURL;
+    const queryURL;
 
     calcGeoLocation();
 
@@ -32,7 +32,7 @@ function showPosition(position){
                 // Iterating through the response array
                 for(var i=0; i<7; i++){
                 // Creating new div to append images to the html page
-                var newDiv = $("<div>");
+                const newDiv = $("<div>");
                 // Create active class for first image received as response
                     if(i === 0){
                    newDiv.addClass("carousel-item active");
@@ -44,7 +44,7 @@ function showPosition(position){
                     // Creating new image tag and appending to div
                 //    var imgBtn = $("<button>");
                 //    imgBtn.attr("id","image" + i)
-                   var imageTag = $("<img>");
+                   const imageTag = $("<img>");
                    imageTag.attr("id","imgBtn"+i);
                    imageTag.attr("src",response.trails[i].imgMedium);
                    imageTag.attr("style","height: 600px; width: 300px");

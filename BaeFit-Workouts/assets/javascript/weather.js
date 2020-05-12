@@ -1,5 +1,5 @@
 // declare global variable to store latitude and longitude
-var lat,
+const lat,
     lon;
 
 // prompt user for geolocation permission
@@ -16,8 +16,8 @@ if (navigator.geolocation) {
 
 // call openweathermap for deets!
 function weather(){
-    var APIKey = "96f902ee5cbadb67440defd501103a74";
-    var queryURL = "https://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + lon + "&units=imperial&appid=" + APIKey;
+    const APIKey = "96f902ee5cbadb67440defd501103a74";
+    const queryURL = "https://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + lon + "&units=imperial&appid=" + APIKey;
 
 $.ajax({
     url: queryURL,

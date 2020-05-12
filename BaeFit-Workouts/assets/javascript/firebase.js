@@ -1,5 +1,5 @@
 // Your web app's Firebase configuration
-var firebaseConfig = {
+const firebaseConfig = {
 apiKey: "AIzaSyB_F77NAI45OFk_xh2elGJUyTkSHBqK4nM",
 authDomain: "project-1-252820.firebaseapp.com",
 databaseURL: "https://project-1-252820.firebaseio.com",
@@ -15,14 +15,14 @@ firebase.initializeApp(firebaseConfig);
 // remove what we don't need, adjust what we need.
 
 // FirebaseUI config.
-var uiConfig = {
+const uiConfig = {
     callbacks: {
     signInSuccessWithAuthResult: function(authResult, redirectUrl) {
-        var user = authResult.user;
-        var credential = authResult.credential;
-        var isNewUser = authResult.additionalUserInfo.isNewUser;
-        var providerId = authResult.additionalUserInfo.providerId;
-        var operationType = authResult.operationType;
+        const user = authResult.user;
+        const credential = authResult.credential;
+        const isNewUser = authResult.additionalUserInfo.isNewUser;
+        const providerId = authResult.additionalUserInfo.providerId;
+        const operationType = authResult.operationType;
         // Do something with the returned AuthResult.
         // return true for conditional auto-redirect, false for no redirect
         return false;
