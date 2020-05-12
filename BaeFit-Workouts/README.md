@@ -1,9 +1,6 @@
 # BaeFit
 
-## Links:
-Deployed Website: <br> https://bryanjacinto1994.github.io/Project-One/
-<br>
-Github Repository: <br> https://github.com/bryanjacinto1994/Project-One
+
 ## Images:
 
 ![Site](assets/images/BaeFitHome.png)
@@ -168,14 +165,4 @@ $.ajax({
 }
 ```
 
-## Author Links: 
-### - Bryan Jacinto: <br>
-Github: <br> https://github.com/bryanjacinto1994 <br>
-Linkedin: <br> https://www.linkedin.com/in/bryan-jacinto-100438aa/
-### - Mahisha Gunasekaran: <br>
-Github: <br>https://github.com/Mahi-Mani <br>
-Linkedin: <br> https://www.linkedin.com/in/mahisha-gunasekaran-0a780a88
 
-### - Kerwin Hy: <br>
-Github: <br>https://github.com/seiretsym <br>
-Linkedin: <br> https://www.linkedin.com/in/kerwinhy/
